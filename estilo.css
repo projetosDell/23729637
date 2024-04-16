@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: white;
+    font-weight: 600;
+    background: #643d87 url(/img/fundo.jpg) no-repeat top center;
+}
+h2{
+    color: black;
+    background-color: #fffb00;
+    border: 1px solid #fffb00;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 500px;
+    width: 600px;
+    margin: 1rem auto;
+    padding-top: 5rem;
+    align-items: center;
+    border: 1px solid white;
+}
+ul li{
+    padding: 1rem;
+    list-style: none;
+}
